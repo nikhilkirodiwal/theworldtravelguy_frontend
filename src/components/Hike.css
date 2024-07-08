@@ -1,0 +1,83 @@
+/* Hike.css */
+
+.hike {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 2%;
+}
+
+
+.hik {
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: auto;
+    width: 60%;
+    margin-top: 5%; 
+}
+
+.hik span { 
+    background: #fff; 
+    padding: 0 10px; 
+}
+
+.hike1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.hike h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hike h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+.hike-desc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hike-item {
+    width: 300px;
+    text-align: center;
+    margin: 0;
+}
+ 
+.hikeimg {
+    min-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hike-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hike-desc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hike-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+
+  .guide {
+    margin-top: 5%;
+
+  }
+
+
+  .guid {
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: auto;
+    width: 60%;
+ } 
+ 
+ .guid span { 
+     background:#fff; 
+ }
+  
+  .guide1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  
+  .guide_desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .guide-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .guideimg {
+    max-width: 350px;   
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .guide-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 400;
+
+  }
+  

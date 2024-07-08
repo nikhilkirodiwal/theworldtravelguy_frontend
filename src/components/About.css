@@ -1,0 +1,61 @@
+/* About.css */
+
+.about {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.about1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  margin-top: 20px;
+  max-width: 300px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.about-text {
+  margin-top: 20px;   
+  flex: 1;
+}
+
+.about-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  margin-bottom: 10px;
+}
+
+.read-more-btn1 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: auto;
+  border-radius: 10px;
+  border: #000 2px solid;
+  cursor: pointer;
+}
+
+.read-more-btn1:hover {
+  background-color: rgb(219, 87, 87);
+}
